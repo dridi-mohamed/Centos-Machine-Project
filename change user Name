@@ -1,0 +1,21 @@
+
+Example : Rename the username of DragonX to Ninja 
+
+
+1 - Login use the Root ar ather  user 
+su root
+
+2- kill the prosser of the DragonX user 
+Erruer : <usermod> user tom is currently used by process 6886
+
+# pkill -u DragonX pid
+# pkill -9 -u DragonX
+
+3- chnage the Username to ninja 
+# usermod -l Ninja DragonX
+
+4- Reboot Machine "Hacker Way"
+# init 6 
+
+
+
