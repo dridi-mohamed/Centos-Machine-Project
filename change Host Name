@@ -1,0 +1,11 @@
+1- check yoyr Hostname 
+# hosname
+
+2- change to server99
+# usernamectl set-hosname server99
+
+3- check 
+# cat /etc/hosname
+
+4- Dns 
+# cat /etc/hosts
